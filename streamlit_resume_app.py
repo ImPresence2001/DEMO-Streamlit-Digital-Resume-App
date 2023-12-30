@@ -86,7 +86,7 @@ if select == 'Skills':
 """
 )
      with col2:
-          st.lottie(skills_anime, height=200, key='Skills')
+          st_lottie(skills_anime, height=200, key='Skills')
      st.header('Hard Skills')
      st.write('---')
      col1, col2 = st.columns(2, gap="small")
